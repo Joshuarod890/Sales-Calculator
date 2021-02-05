@@ -1,9 +1,11 @@
 addEventListener("load", main)
 
+// I don't know if I ever learned this :) 
 function main() {
     btCalcSales.addEventListener("click", calculateSales)
 }
 
+// This function calculates sales 
 function calculateSales() {
     Price=parseFloat(txPrice.value)
     TaxRate=parseFloat(txTaxRate.value)/100
